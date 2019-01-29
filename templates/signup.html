@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+
+	
+	<body>
+
+		
+		<h1 class="white">Sign Up</h1>
+		<form method="post" action="/signup">
+			
+			
+			<input class="s_u_d" type="text" name="donor_name" placeholder="Donor Name">
+			<br>
+			<input class="s_u_d" type="email" name="email" placeholder="Email">
+			<br>
+			<input class="s_u_d" type="password" name="password" placeholder="Password">
+			<input class="s_u_d" type="text" name="telephone" placeholder="Telephone Number">
+			<div class="submitmid">
+			<form action="home.html">
+    			<input type="submit"/>
+			</form>
+			</div>
+		</div>
+			<div id='bg_s_u_d'></div>
+		</form>
+	</body>
+	    <script src="{{ url_for('static', filename='jquery.js') }}"></script>
+	    <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>
+</html>

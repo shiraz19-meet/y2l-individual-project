@@ -1,0 +1,326 @@
+@font-face { font-family: BebasNeue; src: url({{ url_for('static', filename='BebasNeue.otf'); } 
+.contentfedreciever{
+	background-color: white;
+	align-content: center;
+	text-align: center;
+	width: 400px;
+	margin-left: 400px;
+	border-radius: 70px;
+
+}
+
+#center{
+	text-align: center;
+}
+#white{
+	color: white;
+}
+
+.all_button{
+	background-color:black;
+	color: white;
+	border-radius: 70px;
+}
+
+a.btn {
+ 
+    -moz-appearance: button;
+    appearance: button;
+    border-radius: 70px;
+
+}
+
+
+
+#topbar{
+	background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.s_u_d{
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+
+	margin-left: 510px;
+    width: 40;
+
+}
+
+
+.white{
+	
+	color: white;
+    width: 250px;
+	padding: 10px;
+	text-align: center;
+	margin-left: 505px;
+}
+
+
+.signupbg{
+background-image: url('tbbt1.jpg');
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100vw;
+	height: 100vh;	
+	z-index: -1;
+
+
+}
+
+.surb{
+	text-align: center;
+}
+
+.surc{
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+
+	margin-left: 350px;
+
+    width: 40%;
+
+}
+
+#sura{
+	text-align: center;
+	margin-left: 595px;
+
+}
+
+
+.surd{
+	text-align: center;
+	margin-right: 60px;
+}
+
+.sur{
+	
+
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+
+	margin-left: 350px;
+
+    width: 40%;
+    border: 3px solid #298de2;
+}
+
+
+
+
+
+
+
+
+.submitmid{
+	width: 100px;
+	text-align: center;
+	margin-left: 570px;
+}
+
+
+#bg_s_u_d{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100vw;
+	height: 100vh;	
+	z-index: -1;
+	background-image: url('tbbt2.jpg');
+	background-size: cover;
+}
+
+
+
+
+
+#pic1{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100vw;
+	height: 100vh;	
+	z-index: -1;
+	webkit-filter:blur(20px);
+	filter:blur(5px);
+	background-image: url('tbbt3.jpg');
+	background-size: cover;
+	opacity: 0.9;
+}
+.home_content{
+	text-align: center;
+	align-content: center;
+	font-family: BebasNeue;
+}
+
+
+
+.bgrealfeed{
+	background-image:url("question.jpg");
+	background-repeat: repeat-y;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	margin-top: 0px;
+	background-color: white;
+}
+
+
+
+.right{
+	float: right;
+
+}
+
+.mybar{
+	position: fixed;	
+}
+
+
+.whiteback{
+	 text-shadow: 1px 1px white;
+}
+
+
+#headerbig{
+	font-size: 50px;
+	 text-shadow: 1px 1px white;
+}
+
+.card{
+border-style: solid ;
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 0;
+text-align: center;
+align-content: center;
+margin-left: 365px;
+}
+
+
+#listthingy{
+	background-color: rgba(0, 0, 0, 0.5);
+	font-family: Courier New, Helvetica,Monospace ;
+	width: 550px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 25px;
+	font-size: 15pt;
+}
+
+#listthingy ul p
+{
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-55%);
+
+}
+
+#donantion_recieverbg{
+	background-image:url("galaxy.jpg");
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+.donreci{
+margin-bottom: 5px;
+}
+
+
+.bgaccrec{
+	background-color: white;
+	text-align: center;
+	width:400px;
+	margin-left: ;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 25px;
+
+}
+
+.middyplz{
+	margin-left: 47px;
+	margin-top: 5px;
+margin-bottom: 5px;
+}
+
+
+.myuploadedrequest{
+	margin-top: 5px;
+margin-bottom: 50px;
+}
+
+
+
+
+.middlethingy{
+	text-align: center;
+	font-style: italic;
+
+}
+
+
+.randomkmn{
+	text-align: center;
+	color: white;
+
+}
+
+.almostdonewithdiv{
+	background-image: url('background.jpg');
+		background-size: cover;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+
+#toomuch{
+	margin-top: 100px;
+}
+
+.fonts{
+	color:white;
+	font-size: 24px;
+	 font-family: "Lucida Console", monospace;
+	 margin-top: 100px;
+}
+
+.donreci{
+	text-align: center;
+}

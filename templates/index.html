@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+
+        <!-- Required tags to make the website responsive-->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.css') }}">
+        <title>The Big Bnag Theory</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    </head>
+    <body>
+
+    <div class=main_bar>
+        
+        <div id="topbar">
+            <div class="right">
+            </div>
+        <button class="btn btn-primary main_bar all_button"  type="button" >Home</button>
+        
+        <br>
+
+        <form method="post">
+            <input type="text" name="email" placeholder="email" class = "main_bar">
+            <input type="password" name="password" placeholder="password" class="main_bar">
+            <input type="submit" name="submit">
+        </form>
+    </div>
+    </div>
+    <div class="home_content">
+        <div id="headerbig">
+        <p>   The Big Bang Theory</p>
+        </div>
+        <br>
+        <a href = "{{url_for('donor')}}" class =  "btn btn-info main_bar all_button button" id = "donor">Sign up</a>
+        <br>
+        <br>
+        <br>
+        
+
+        <div class='whiteback'>
+        
+
+        <h2>Some Facts About The Big Bang Theory:</h2>
+        </div>
+        
+
+        <div id="listthingy">
+
+        <ul>
+
+            <p>Genre: Sitcom</p>
+            <p>Created By: Chuck Lorre and Bill Prady</p>
+            <p>Directed By: Johnny Galecki <br> Cast:<br> Jim Parsons, Kaley Cuoco, Simon Helberg, <br> Kunal Nayyar, Sara Gillbert, Mayim Bialik, Melissa Rauch, Kevin Sussman, Laura Spencer</p>
+        </ul>
+    </div>
+    </div>
+        </div>
+
+
+    <div id="pic1"></div>
+    <div id="topbar"></div>
+       <!-- Add JQuery and Bootstrap JS to the page -->
+       <!-- JQuery MUST BE BEFORE BOOTSTRAP -->
+        <script src="{{ url_for('static', filename='jquery.js') }}"></script>
+        <script src="{{ url_for('static', filename='bootstrap.bundle.js') }}"></script>
+
+
+
+
+<!-- 
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+<script>
+$(document).ready(function(){
+var header = $('#pic1');
+
+var backgrounds = new Array(
+    'url("{{url_for("static", filename="tbbtjs3.jpg")}}")'
+  , 'url("{{url_for("static", filename="tbbtjs2.jpg")}}")'
+  , 'url("{{url_for("static", filename="tbbtjs.jpg")}}")'
+);
+
+var current = 0;
+
+function nextBackground() {
+    current++;
+    current = current % backgrounds.length;
+    header.css('background-image', backgrounds[current]);
+}
+setInterval(nextBackground, 5000);
+
+header.css('background-image', backgrounds[0]);
+});
+</script>
+
+
+
+
+
+    </body>
+</html>
